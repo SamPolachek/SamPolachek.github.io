@@ -12,6 +12,12 @@ th {
     padding-left: 10px;
     padding-right: 10px;
   }
-  a {
-    color: black;
+  td a {
+    color: red;
+  }
+  #testing {
+    color: lime;
+  }
+  .rowheader {
+    color: magenta;
   }
