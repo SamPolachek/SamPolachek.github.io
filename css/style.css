@@ -1,23 +1,23 @@
 th {
     border: 3px solid black;
-  }
-  td {
-    border: 3px solid black;
-  }
-  table {
-    border-collapse: collapse;
-    color: blue;
-  }
-  td, th {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  td a {
-    color: red;
-  }
-  #testing {
-    color: lime;
-  }
-  .rowheader {
-    color: magenta;
-  }
+}
+td {
+  border: 3px solid black;
+}
+table {
+  border-collapse: collapse;
+  color: blue;
+}
+td, th {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+td a {
+  color: red;
+}
+#testing {
+  color: lime;
+}
+.rowheader {
+  color: magenta;
+}
