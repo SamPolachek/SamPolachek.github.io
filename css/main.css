@@ -1,0 +1,45 @@
+:root {
+    --uncblue: rgb(1, 45, 91);
+    --uncgold: rgb(254, 189, 54);
+    --uncgray: rgb(235, 235, 235);
+}
+body {
+    background-color: var(--uncblue);
+}
+h1, h2, .name {
+    color: var(--uncgold);
+}
+p, ol, td {
+    color: var(--uncgray);
+}
+a {
+    color: red;
+}
+strong > em {
+    background-color: red;
+}
+.logo {
+    background-color: var(--uncgray);
+    height: 100px;
+    border: 5px solid black;
+}
+#listtitle {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.nf {
+    display: block;
+    float: left;
+}
+strong {
+    font-family: sans-serif;
+}
+.sam {
+    border: 5px solid black;
+    height: 250px;
+}
+#tohome {
+    border: 2px dotted whitesmoke;
+    float: left;
+}
