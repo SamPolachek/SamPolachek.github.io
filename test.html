@@ -41,8 +41,26 @@
     </table>
 
     <form method="GET" action="https://validator.w3.org/check">
-      <input type="text" name="uri" size="57">
+      <p>
+        <label for="page">Please Enter an Address:</label>
+        <input type="text" name="uri" size="57" id="page">
+        <input type="submit" value="Validate">
+      </p>
+    </form>
+    <form method="GET" action="https://validator.w3.org/check">
+      <p>
+      <input type="radio" name="uri" value="https://www.sampolachek.github.io/template.html" id="template">
+      <label for="template">Template</label>
+      <input type="radio" name="uri" value="https://www.sampolachek.github.io/amuse.html" id="amuse">
+      <label for="amuse">Amuse</label>
+      <input type="radio" name="uri" value="https://www.sampolachek.github.io/inspire.html" id="inspire">
+      <label for="inspire">Inspire</label>
+      <input type="radio" name="uri" value="https://www.sampolachek.github.io/profile.html" id="profile">
+      <label for="profile">Profile</label>
+      </p>
+      <p>
       <input type="submit" value="Validate">
+      </p>
     </form>
 
     <h1>Other</h1>
