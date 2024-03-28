@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Search</title>
+      <link href="css/main.css" rel="stylesheet">
+    </head>
+  <body>
+    <h1>Sea Creature Search</h1>
+    <form action="https://www.google.com/search" method="GET" target="_blank">
+        <fieldset id="toplevelset">
+            <p>
+                <label for="selectfish">Select a Sea Creature:</label>
+                <select name="q" id="selectfish">
+                    <option value="whale">Whale</option>
+                    <option value="dolphin">Dolphin</option>
+                    <option value="crab">Crab</option>
+                    <option value="krill">Krill</option>
+                    <option value="shark">WATCH OUT</option>
+                </select>
+            </p>
+            <p style="display:none">
+                <label for="imagecheck">Images</label>
+                <input type="checkbox" name="tbm" value="isch" id="imagecheck" checked>
+            </p>
+            <p>Select an Image Type:</p>
+            <p>
+                <input type="radio" name="as_filetype" value="png" id="radiopng">
+                <label for="radiopng">PNG</label>
+            </p>
+            <p>
+                <input type="radio" name="as_filetype" value="jpg" id="radiojpg">
+                <label for="radiojpg">JPG</label>
+            </p>
+            <p>
+                <input type="radio" name="as_filetype" value="gif" id="radiogif">
+                <label for="radiogif">GIF</label>
+            </p>
+            <p>
+                <label for="details">Additional Details:</label>
+                <input type="text" name="as_oq" id="details">
+            </p>
+            <fieldset>
+                <p>
+                    <label for="news">News Articles?</label>
+                    <input type="checkbox" name="nws" id="news">
+                </p>
+                <p>
+                    <label for="videos">Videos?</label>
+                    <input type="checkbox" name="vid" id="videos">
+                </p>
+                <p>
+                    <label for="tabs">Open Links in New Tab?</label>
+                    <input type="checkbox" name="newwindow" value="1" id="tabs">
+                </p>
+            </fieldset>
+            <p>
+                <input type="submit" value="Search">
+            </p>
+        </fieldset>
+    </form>
+  </body>
+</html>
