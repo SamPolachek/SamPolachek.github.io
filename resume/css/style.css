@@ -1,0 +1,34 @@
+:root {
+    --uncblue: rgb(1, 45, 91);
+    --uncgold: rgb(254, 189, 54);
+    --uncgray: rgb(235, 235, 235);
+}
+body {
+    background-color: var(--uncblue);
+}
+*{
+    text-align: center;
+}
+h1, h2, li {
+    color: var(--uncgray);
+}
+nav {
+    border: 7px var(--uncgold) solid;
+}
+section {
+    border: 5px var(--uncgray) solid;
+    margin: 7px;
+}
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+.date, a {
+    color: var(--uncgold);
+}
+li, a, p {
+    font-family: sans-serif;
+}
+h1 {
+    font-size: calc(12pt + 4vw);
+}
