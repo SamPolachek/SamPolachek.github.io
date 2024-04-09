@@ -30,7 +30,6 @@ strong > em {
 }
 .nf {
     display: block;
-    float: left;
 }
 strong {
     font-family: sans-serif;
